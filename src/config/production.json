@@ -1,0 +1,31 @@
+{
+  "env": {
+    "env": "production"
+  },
+  "server": {
+    "ports": {
+      "http": {
+        "doc": "HTTP Port",
+        "default": 5000
+      },
+      "https": {
+        "doc": "HTTPS Port",
+        "default": 5000
+      }
+    }
+  },
+  "vendor": {
+    "stripe": {
+      "live": {
+        "pk_live": "",
+        "sk_live": "",
+        "card_tokens": {
+          "visa": "tok_visa",
+          "mastercard": "tok_mastercard",
+          "amex": "tok_amex",
+          "discover": "tok_discover"
+        }
+      }
+    }
+  }
+}

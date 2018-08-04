@@ -1,0 +1,8 @@
+# Node Dependencies
+node_modules/
+
+# IDE Settings
+.idea/
+
+# Configurations
+# pm2.json
